@@ -1,0 +1,30 @@
+
+    .conteiner {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background: brown;
+        color: black;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: auto;
+
+    }
+
+    .card {
+        background: greenyellow;
+        padding: 50px;
+        border-radius: 12px;
+        transition: 0.3s;
+
+    }
+.card2 {
+    background: blue;
+}
