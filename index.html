@@ -5,37 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="conteiner">
-        <h1>
-            meus cards
-        </h1>
+        <h1>meus cards</h1>
         <div class="cards">
             <div class="card">
-                <h2>card1</h2>
-                <p>
-                    descrição do card
-                </p>
-                <button class="btn">
-
-                </button>
+                <h2>card 1</h2>
+                <p>descrição do card</p>
+                <button class="btn">Clique</button>
             </div>
             <div class="card">
-                <h2>card2</h2>
-
+                <h2>card 2</h2>
+                <p>outra descrição aqui</p>
+                <button class="btn">Clique</button>
             </div>
             <div class="card">
-                <h2>card3</h2>
-
+                <h2>card 3</h2>
+                <p>mais conteudo aqui</p>
+                <button class="btn">Clique</button>
             </div>
         </div>
     </div>
 
 </body>
+<style>
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 
+    .btn {
+        cursor: pointer;
+        background: rgb(49, 138, 239);
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
 
+    body {
+        background: rgb(0, 18, 53);
+    }
+
+    h1 {
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .container {
+        text-align: center;
+    }
+</style>
 
 </html>
